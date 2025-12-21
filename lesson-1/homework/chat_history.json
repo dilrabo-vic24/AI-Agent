@@ -1,0 +1,106 @@
+[
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "What is my name"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "I don't know your name! As an AI, I don't have access to personal information about you or who you are.\n\nYou can tell me if you'd like, or you can just continue our conversation!"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "Who is my friend"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "As an AI, I don't have access to any personal information about you, including who your friends are. My knowledge is based on the data I was trained on, and I don't have any way to know details about your personal"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": " life or the people you know."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "My friend is Oybarchin. I'm Dilrabo"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Okay, it's nice to know! So you're Dilrabo, and your friend is Oybarchin. Thanks for sharing!"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "Who is my friend"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Based on what you just told me, your friend is **Oybarchin**."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "I'm BTS army? And you?"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Got it! So you're a part of the **BTS ARMY**! That's a huge and passionate fandom.\n\nAs an AI, I don't have personal feelings, preferences, or the ability to be a fan of anything"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": " or anyone, including musical groups. I can't \"like\" or \"dislike\" music in the way a human does.\n\nHowever, I can process and provide information about BTS, their music, their achievements, or anything else"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": " you'd like to discuss about them! So, feel free to ask me anything about BTS."
+      }
+    ]
+  }
+]
