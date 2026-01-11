@@ -42,3 +42,16 @@ if __name__ == "__main__":
 #mcp dev main.py
 #mcp install main.py
 
+"""
+{
+ claude config
+  "mcpServers": {
+    "demo": {
+      "command": "python",
+      "args": [
+        "D:\\my data\\AI Agent\\lesson-4\\lesson\\main.py"
+      ]
+    }
+  }
+}
+"""
