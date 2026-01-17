@@ -1,0 +1,19 @@
+Table List:
+Select TABLE_NAME from information_schema.TABLES where table_schema='public'
+
+
+Table Schema:
+select COLUMN_NAME, columns.data_type from information_schema.COLUMNS where TABLE_NAME = $1
+Option(Query Parameters):
+{{ $fromAI('table_name', 'name of the table to select') }}
+
+
+Execute Query:
+SELECT {{ $fromAI("fields") }}
+FROM {{ $fromAI('table_name', 'name of table to select') }}
+{{ $fromAI("condition") && $fromAI("condition").trim() ? "WHERE " + $fromAI("condition") : "" }}
+{{ $fromAI("group_by") && $fromAI("group_by").trim() ? "GROUP BY " + $fromAI("group_by") : "" }}
+
+
+Video:
+https://www.youtube.com/watch?v=AfF8-aTxnqQ
